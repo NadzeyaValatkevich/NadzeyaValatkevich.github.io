@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Сыроварня</title>
+</head>
+<body>
+    <!-- Sprite -->
+    <svg style="display: none;">
+        <symbol id="facebook" viewBox="0 0 24 24">
+            <path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/>
+        </symbol>
+        <symbol id="twitter" viewBox="0 0 512 512">
+            <g>
+                <path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+                    c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+                    c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+                    c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+                    c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+                    c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+                    C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+                    C480.224,136.96,497.728,118.496,512,97.248z"/>
+            </g>
+        </symbol>
+        <symbol id="instagram" viewBox="0 0 512.00096 512.00096">
+            <path d="m373.40625 0h-234.8125c-76.421875 0-138.59375 62.171875-138.59375 138.59375v234.816406c0 76.417969 62.171875 138.589844 138.59375 138.589844h234.816406c76.417969 0 138.589844-62.171875 138.589844-138.589844v-234.816406c0-76.421875-62.171875-138.59375-138.59375-138.59375zm-117.40625 395.996094c-77.195312 0-139.996094-62.800782-139.996094-139.996094s62.800782-139.996094 139.996094-139.996094 139.996094 62.800782 139.996094 139.996094-62.800782 139.996094-139.996094 139.996094zm143.34375-246.976563c-22.8125 0-41.367188-18.554687-41.367188-41.367187s18.554688-41.371094 41.367188-41.371094 41.371094 18.558594 41.371094 41.371094-18.558594 41.367187-41.371094 41.367187zm0 0"/><path d="m256 146.019531c-60.640625 0-109.980469 49.335938-109.980469 109.980469 0 60.640625 49.339844 109.980469 109.980469 109.980469 60.644531 0 109.980469-49.339844 109.980469-109.980469 0-60.644531-49.335938-109.980469-109.980469-109.980469zm0 0"/><path d="m399.34375 96.300781c-6.257812 0-11.351562 5.09375-11.351562 11.351563 0 6.257812 5.09375 11.351562 11.351562 11.351562 6.261719 0 11.355469-5.089844 11.355469-11.351562 0-6.261719-5.09375-11.351563-11.355469-11.351563zm0 0"/>
+        </symbol>
+    </svg>  
+    <!--Header created  -->
+    <header class="header">
+        <div class="header-info">
+            <div class="header-logo">
+                <img src="img/logo_new.png" alt="Somerset">
+            </div>
+            <nav class="nav">
+                <div class="nav-block"><a href="#Главная" class="nav-link">Главная</a></div>
+                <div class="nav-block"><a href="#Ценности" class="nav-link">Ценности</a></div>
+                <div class="nav-block nav-product"><a href="#Продукция" class="nav-link">Продукция</a></div>
+                <div class="nav-block"><a href="#Производство" class="nav-link">Производство</a></div>
+                <div class="nav-block"><a href="#Отзывы" class="nav-link">Отзывы</a></div>
+                <div class="nav-block"><a href="#Контакты" class="nav-link">Контакты</a></div>
+            </nav>
+            <div class="block-bar">
+                <div class="icon-item">
+                    <nav class="nav-bar">
+                        <a href="#Главная" class="bar-link">Главная</a> 
+                        <a href="#Ценности" class="bar-link">Ценности</a>  
+                        <a href="#Продукция" class="bar-link">Продукция</a>
+                        <a href="#Производство" class="bar-link">Производство</a>
+                        <a href="#Отзывы" class="bar-link">Отзывы</a>
+                        <a href="#Контакты" class="bar-link">Контакты</a>
+                    </nav>
+                </div>
+            </div>
+        </div>    
+    </header>
+    <!-- Main created -->
+    <div class="info" id="Главная">
+        <div class="info-logo">
+            <img src="img/4004963new.jpg" alt="somerset">
+        </div>
+        <h1 class="info-title">Настоящий сырный рай!</h1>
+        <p class="info-subtitle">Только из натуральных продуктов</p>
+        <a href="#" class="info-btn">Читать больше</a>   
+    </div>
+    <!-- Values created -->
+    <section class="values" id="Ценности">
+        <h2 class="title-section-values">Наши ценности</h2>
+        <div class="values-container">
+            <div class="values-items">
+                <h3 class="title-values">Честность</h3>
+                <ol class="text-values">
+                    <li>мы надежны и ориентированы на долгосрочное сотрудничество</li>
+                    <li>мы выполняем взятые на себя обязательства</li>
+                    <li>мы ценим доверие наших потребителей, сотрудников и партнеров</li>
+                </ol>
+            </div>
+            <div class="values-items">
+                <h3 class="title-values">Гибкость</h3>
+                <ol class="text-values">
+                    <li>мы быстро адаптируемся к новым тенденциям и изменениям на рынке</li>
+                    <li>мы находим возможности удовлетворить запросы потребителей и партнеров</li>
+                    <li>мы соблюдаем баланс между краткосрочными и долгосрочными результатами</li>
+                </ol>
+            </div>
+            <div class="values-items">
+                <h3 class="title-values">Лидерство</h3>
+                <ol class="text-values">
+                    <li>мы объединены стремлением быть первыми</li>
+                    <li>мы ставим амбициозные цели и достигаем их</li>
+                    <li>мы создаем инновационные продукты</li>
+                </ol>
+            </div>
+            <div class="values-items">
+                <h3 class="title-values">Профессионализм</h3>
+                <ol class="text-values">
+                    <li>мы эксперты в своем деле</li>
+                    <li>мы привлекаем передовой опыт</li>
+                    <li>мы нацелены на результат и качество</li>
+                </ol>
+            </div>
+            <div class="values-items">
+                <h3 class="title-values">Ответственность</h3>
+                <ol class="text-values">
+                    <li>мы производим продукты, которыми гордимся</li>
+                    <li>мы уважительно относимся к труду каждого</li>
+                    <li>мы ведем социально ответственный бизнес</li>
+                </ol>
+            </div>
+            <div class="values-items">
+                <h3 class="title-values">Развитие</h3>
+                <ol class="text-values">
+                    <li>мы предоставляем широкие возможности для самореализации</li>
+                    <li>мы храним традицию совместного роста сотрудников и компании</li>
+                    <li>мы поддерживаем непрерывное обучение</li>
+                </ol>
+            </div>
+        </div>   
+    </section>
+    <!-- Blog-our-products created -->
+    <section class="blog" id="Продукция">
+       <div class="blog-items">
+            <div class="blog-img-container">
+                <img src="img/пармезан.jpg" alt="пармезан" class="blog-img">
+                <div class="blog-img-desc-container">
+                    <div class="blog-img-desc">
+                        <a class="blog-img-desc-link" href="#">Пармезан</a>
+                    </div>
+                 </div>
+            </div>
+            <div class="blog-desc-container">Монахи-бенедиктинцы подарили миру очень много, в том числе к их заслугам принято относить создание рецепта сыра пармезана. Считается, что их целью было изобрести сыр, который мог бы храниться максимально долго.</div>
+        </div>
+        <div class="blog-items">
+            <div class="blog-img-container">
+                <img src="img/маасдам.jpg" alt="маасдам" class="blog-img">
+                <div class="blog-img-desc-container">
+                    <div class="blog-img-desc">
+                        <a class="blog-img-desc-link" href="#">Маасдам</a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-desc-container">Когда речь заходит о сыре, многие из нас представляют ароматный нежно-золотистый ломтик с огромными дырками. А это и есть маасдам – главный конкурент швейцарского сыра.</div>
+        </div>
+        <div class="blog-items">
+            <div class="blog-img-container">
+                <img src="img/чеддер.jpg" alt="чеддер" class="blog-img">
+                <div class="blog-img-desc-container">
+                    <div class="blog-img-desc">
+                        <a class="blog-img-desc-link" href="#">Чеддер</a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-desc-container">Чеддер – это твердый сыр британского происхождения с желтой или грязно-белой мякотью, который в течение нескольких веков остается самым популярным сортом в Соединенном Королевстве.</div>
+        </div>
+        <div class="blog-items">
+            <div class="blog-img-container">
+                <img src="img/данаблю.jpg" alt="данаблю" class="blog-img">
+                <div class="blog-img-desc-container">
+                    <div class="blog-img-desc">
+                        <a class="blog-img-desc-link" href="#">Данаблю</a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-desc-container">Данаблю — один из наиболее популярных у гурманов сыров с благородной голубой плесенью. Изначально его создатели задумывали свой продукт как датскую альтернативу французскому Рокфору. </div>
+        </div>
+        <div class="blog-items">
+            <div class="blog-img-container">
+                <img src="img/моцарелла.jpg" alt="моцарелла" class="blog-img">
+                <div class="blog-img-desc-container">
+                    <div class="blog-img-desc">
+                        <a class="blog-img-desc-link" href="#">Моцарелла</a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-desc-container">Моцарелла — это классический итальянский мягкий рассольный сыр. Первые упоминания в литературе об этом виде сыра относятся к эпохе Возрождения. В 1570 году сыр моцарелла в качестве одного из ингредиентов входил в состав многих блюд.</div>
+        </div>
+        <div class="blog-items">
+            <div class="blog-img-container">
+                <img src="img/маскарпоне.jpg" alt="маскарпоне" class="blog-img">
+                <div class="blog-img-desc-container">
+                    <div class="blog-img-desc">
+                        <a class="blog-img-desc-link" href="#">Маскарпоне</a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-desc-container">Сыр маскарпоне – нежная сливочная масса, служащая основой для изготовления десертов (тирамису, чизкейка) во всем мире. Первые упоминания о продукте зафиксированы в XVI столетии в северной области Италии (Ломбардии).</div>
+        </div>
+        <div class="blog-items">
+            <div class="blog-img-container">
+                <img src="img/абонданс.jpg" alt="абонданс" class="blog-img">
+                <div class="blog-img-desc-container">
+                    <div class="blog-img-desc">
+                        <a class="blog-img-desc-link" href="#">Абонданс</a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-desc-container">Высокое качество продукта и его необычайный вкус используются для приготовления изысканных блюд. Хорошо сочетается Абонданс с винами, усиливая вкус сухого красного вина дорогих сортов.</div>
+        </div>
+        <div class="blog-items">
+            <div class="blog-img-container">
+                <img src="img/сулугуни.jpg" alt="сулугуни" class="blog-img">
+                <div class="blog-img-desc-container">
+                    <div class="blog-img-desc">
+                        <a class="blog-img-desc-link" href="#">Сулугуни</a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-desc-container">Вкус грузинских сыров не оставит равнодушным ни искушенного гурмана, ни рядового обывателя. Абсолютный лидер (по темпам продаж и популярности среди населения) – сулугуни.</div>
+        </div>
+        <div class="blog-items">
+            <div class="blog-img-container">
+                <img src="img/рикота.jpg" alt="рикота" class="blog-img">
+                <div class="blog-img-desc-container">
+                    <div class="blog-img-desc">
+                        <a class="blog-img-desc-link" href="#">Рикота</a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-desc-container ">Сыр рикотта – это традиционный итальянский сыр, хотя на самом деле по технологии приготовления рикотту нельзя называть сыром. Дело в том, что ее изготавливают не из цельного молока, а из сыворотки.</div>
+        </div>
+    </section>
+    <!-- Factory created -->
+    <section class="factory" id="Производство">
+            <div class="factory-video">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/08inmGQ1hvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="factory-content1 factory-info">
+                <h3 class="factory-title">Сыроварня Somerset</h3>
+                <p class="factory-text">Мы производим качественные сыры по европейским стандартам. В цеху работают специалисты из Италии, которые строго соблюдают традиционные технологии и рецептуру, — именно поэтому наши сыры ничем не отличаются от итальянских. Вся продукция изготавливается исключительно из цельного молока с использованием итальянских ферментов и без добавления консервантов – срок годности молодых сыров составляет не более десяти дней.</p>
+            </div>
+            <div class="factory-photo1-block">
+                <img src="img/our-factory.jpg" alt="Our-factory" class="factory-photo1">
+            </div>
+            <div class="factory-content2 factory-info">
+                <h3 class="factory-title">О нас</h3>
+                <p class="factory-text">Владелец сыроварни — Алексей Климович, который ранее занимался импортом сыров из Италии для лучших итальянских ресторанов Минска. Несколько лет назад, после введения продуктового эмбарго, Кирилл был вынужден открыть свою собственную сыроварню. Основной задачей было сделать такую продукцию, которая ничем бы не отличалась от итальянского аналога. Пригласив итальянских признанных специалистов ему удалось превзойти все ожидания — в 2018 году сыроварня Somerset была признана лучшей в Беларуси.</p>
+            </div>
+            <div class="factory-photo2-block">
+                <img src="img/person.png" alt="Our-person" class="factory-photo1">
+            </div>
+            <div class="factory-content3 factory-info">
+                <h3 class="factory-title">Производство сыра</h3>
+                <p class="factory-text">Цех для будущей сыроварни в Минском районе проектировал итальянец Паскуале Де Цилис. Запайщик моцареллы и лабораторное оборудование для контроля качества молока и сыра заказали в Италии, а сыродельные ванны, емкости для подготовки сырного зерна, столы с разными уклонами слива изготавливали под заказ уже в Беларуси. Главный в цеху — еще один итальянец, Франческо Кассоне. Он с 12 лет помогал отцу на семейной сыроварне, которая была расположена на родине производства мягких сыров, — Апулии.</p>
+            </div>
+    </section> 
+    <!-- Reviews created -->
+    <section class="reviews" id="Отзывы">
+        <div class="reviews-photo"></div>
+        <div class="reviews-content">
+            <div class="reviews-text">"Сыры очень вкусные. Представлена данная компания во многих магазинах. Не составляет труда данный продукт приобрести. Развития и процветания вашей сыроварне."</div>
+            <div class="reviews-author">
+                Дарья Мороз, г.Брест.
+            </div>
+        </div>
+    </section>
+     <!-- Feedback created  -->
+    <section class="feedback" id="Контакты">
+        <div class="form-feedback">
+            <h3 class="title-form">Свяжитесь с нами</h3>
+            <form class="form-contacts" action="#" method="get">
+                <input class="item-form" type="text" placeholder="Name">
+                <input class="item-form" type="tel" placeholder="Phone: 8-0xx-xxx-xx-xx" pattern="8 - 0 [0-9] {2} - [0-9] {3} - [0-9] {2} - [0-9] {2}">
+                <input class="item-form" type="email" placeholder="Email">
+                <textarea class="item-form message-item-form" type="text" placeholder="Message"></textarea>
+                <button class="button-send">Отправить</button>
+            </form>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2359.593773998054!2d27.32507581529934!3d53.74330945260458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d9637b653fc2bf%3A0x7af9161afc7abc4d!2sSomerset!5e0!3m2!1sru!2sby!4v1630876765871!5m2!1sru!2sby" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    <!-- footer created -->
+    <footer class="footer">
+        <div class="footer-block">
+            <h4 class="footer-title">Место нахождения</h4>
+            <div class="footer-text">
+                <p>222750 Минская обл. Держинский р-он,<p>
+                <p>ул.Якуба Коласа, д.6</p>
+            </div>
+        </div>
+        <div class="footer-block">
+            <h4 class="footer-title">Мы в социальных сетях</h4>
+            <div class="social">
+                <a href="#" class="social-item"target="_blank">
+                    <svg class="social-icon">
+                        <use xlink:href="#facebook">use>
+                    </svg>
+                </a>
+                <a href="#" class="social-item"target="_blank">
+                    <svg class="social-icon">
+                        <use xlink:href="#twitter"></use>
+                    </svg>
+                </a>
+                <a href="#" class="social-item"target="_blank">
+                    <svg class="social-icon">
+                        <use xlink:href="#instagram">use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="footer-block">
+            <h4 class="footer-title">Контактные данные</h4>
+            <div class="footer-info">
+                <div class="phone">
+                    <a  class="connection" href="te+711234567890">(+375)333875140</a> 
+                </div>
+                <div class="post">
+                    <a class="connection"href="mailto:name@domaicom">name@domain.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
