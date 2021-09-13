@@ -1,0 +1,33 @@
+// main: styles.css
+.position-block () {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.background-block () {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.title-style () {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.li-position () {
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    left: -30px;
+}
+.img-size {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.item-background (@bg-col) {
+    &:hover {
+        background-color: @bg-col;
+    } 
+}

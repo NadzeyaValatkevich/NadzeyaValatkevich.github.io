@@ -1,0 +1,115 @@
+@media screen and (max-width: 1150px) {
+    .nav {
+        display: none;
+    }
+    .block-bar{
+        display: block;
+    }
+    .icon-item {
+        display: block;
+    }
+    .nav-bar {
+        display: none;
+        width: 150px;
+        position: absolute;
+        text-align: end;
+        right: 10px;
+        top: 10px;
+    }
+    .icon-item:hover > .nav-bar {
+        display: block;
+        cursor: pointer;
+    } 
+    .reviews-content {
+        padding: 40px 20px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .info-title {
+        font-size: 50px;
+    }
+    .blog {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+    .factory {
+        display: flex;
+        flex-direction: column;
+    }
+    .factory-video, .factory-info, .factory-photo1-block, .factory-photo2-block {
+        width: 100%;
+    } 
+    .reviews-text {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .button-send {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .info-title {
+        font-size: 40px;
+    }
+    .info-subtitle {
+        font-size: 25px;
+    }
+    .values-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .title-section-values {
+        font-size: 30px;
+    }
+    .title-values, .factory-title, .form-title {
+        font-size: 25px;
+    }
+    .blog {
+        display: flex;
+        flex-direction: column;
+    }
+    .factory-text {
+        line-height: 20px;
+    }
+    .reviews {
+        display: flex;
+        flex-direction: column;
+    }
+    .reviews-photo {
+        height: 300px;
+    }
+    .reviews-text {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .reviews-author {
+        font-size: 16px;
+    }
+    .feedback {
+        display: flex;
+        flex-direction: column;
+    }
+    .map {
+        height: 200px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    .footer-block {
+        align-items: flex-start;
+    }
+    .footer-text {
+        font-size: 14px;
+    }
+    .footer-title, .connection {
+        font-size: 14px;
+    }
+    .social-item {
+        width: 30px;
+        height: 30px;
+    }
+}
